@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title >Shivam Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Script Js   -->
+<script type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "79vtwDR1H3zg7QuF0",
+      });
+   })();
+</script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h1 class="logo">Shivam Portfolio</h1>
+
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><button onclick="scrollToSection('index')">About</button></li>
+      <li><button onclick="scrollToSection('about')">Skills</button></li>
+      <li><button onclick="scrollToSection('experience')">Experience</button></li>
+      <li><button onclick="scrollToSection('contact')">Contact</button></li>
+    </ul>
+  </nav>
+
+  <!-- Sections -->
+  <section id="index" style="height:100vh; background: rgb(62, 4, 116); color:white; display:flex; justify-content:center; align-items:center;">
+    
+    <section id="hero">
+    <div class="index-container">
+      
+      <!-- Profile Image -->
+      <div class="index-Logo">
+        <div class="logoImg"></div>
+      </div>
+
+
+
+
+
+
+      <!-- Intro Section -->
+      <div class="index-intro">
+        <!-- Left Side -->
+<div class="about-text">
+  <h1 class="greeting">Hi, I am</h1>
+  <h2 class="name">Shivam Patel</h2>
+
+  <!-- Typing Effect -->
+  <h3 class="typing">
+    <span class="static-text">I am a </span>
+    <span id="typing-text" class="dynamic-text"></span>
+    <span class="cursor">|</span>
+  </h3>
+   <p class="about-para">
+        I'm a passionate frontend developer skilled in HTML, CSS, JavaScript, and React, focused on building responsive and dynamic user interfaces.  
+        A self-driven web developer who loves creating visually appealing and performance-optimized websites.
+    </p>
+</div>
+
+
+  <div class="cv-btn">         
+  <a 
+    href="zssets/resume-pdf.pdf"
+   download="Shivam-Resume.pdf"
+    class="resume-btn"
+  >
+    DOWNLOAD CV
+  </a>
+    </div>
+      </div>
+
+    </div>
+  </section>
+  </section>
+
+  <section id="about" style="height:100vh; background:  rgb(62, 4, 116); color:white; display:flex; justify-content:center; align-items:center;">
+    <!-- About / Skills Section -->
+  <section class="About-container">
+     <div class="section-title">
+    <h2>SKILLS</h2>
+    <div class="title-underline"></div>
+    <p>
+   My knowledge of modern 
+  frontend practices helps me create clean, efficient, and user-friendly interfaces.
+    </p>
+  </div>
+    <div class="Skills">
+      <div class="tech"><img src="zssets/tech_logo/angular.png" alt=""><h3>Angular</h3></div>
+      <div class="tech"><img src="zssets/tech_logo/bootstrap.png" alt=""><h3>Bootstrap</h3></div>
+      <div class="tech"><img src="zssets/tech_logo/css.png" alt=""><h3>CSS</h3></div>
+      <div class="tech"><img src="zssets/tech_logo/gsap.png" alt=""><h3>GSAP</h3></div>
+      <div class="tech"><img src="zssets/tech_logo/html.png" alt=""><h3>HTML</h3></div>
+      <div class="tech"><img src="zssets/tech_logo/javascript.png" alt=""><h3>JavaScript</h3></div>
+      <div class="tech"><img src="zssets/tech_logo/materialui.png" alt=""><h3>Material UI</h3></div>
+      <div class="tech"><img src="zssets/tech_logo/nextjs.png" alt=""><h3>NextJs</h3></div>
+      <div class="tech"><img src="zssets/tech_logo/reactjs.png" alt=""><h3>ReactJs</h3></div>
+      <div class="tech"><img src="zssets/tech_logo/redux.png" alt=""><h3>Redux</h3></div>
+      <div class="tech"><img src="zssets/tech_logo/sass.png" alt=""><h3>SASS</h3></div>
+      <div class="tech"><img src="zssets/tech_logo/tailwindcss.png" alt=""><h3>TailwindCSS</h3></div>
+    </div>
+  </section>
+  </section>
+
+
+  <!-- ////////Educaton////////////////// -->
+   <section id="education" class="section" >
+    <section id="education" class="education-section">
+  <!-- Section Title -->
+  <div class="section-title">
+    <h2>EDUCATION</h2>
+    <div class="title-underline"></div>
+    <p>
+      My education has been a journey of learning and development. 
+      Here are the details of my academic background
+    </p>
+  </div>
+
+  <!-- Education Timeline -->
+  <div class="timeline">
+    <!-- Vertical Line -->
+    <div class="timeline-line"></div>
+
+    <!-- Education Entry Example -->
+    <div class="timeline-item left">
+      <!-- Circle with Image -->
+      <div class="timeline-circle">
+        <img src="zssets/education/lcit-logo.jpeg" alt="School/College" />
+      </div>
+
+      <!-- Card Content -->
+      <div class="timeline-card">
+        <div class="card-header">
+          <div class="logo">
+            <img src="zssets/education/lcit-logo.jpeg" alt="School/College" style="height:50px; width:50px "/>
+          </div>
+          <div class="info">
+            <h3>Bachelor of Computer Science</h3>
+            <h5>CSVTU Bhilai chhattisgarh</h5>
+            <p class="date">2021 - 2025</p>
+          </div>
+        </div>
+
+        <p class="grade">Score: 83.7%</p>
+        <p class="desc">
+          Learned core computer science fundamentals, web development,
+          and built multiple projects during my degree.
+        </p>
+      </div>
+    </div>
+
+    <!-- Another Timeline Item (right side) -->
+    <div class="timeline-item right">
+      <div class="timeline-circle">
+        <img src="zssets/education/cgbse.jpeg" alt="School" />
+      </div>
+      <div class="timeline-card">
+        <div class="card-header">
+          <div class="logo">
+            <img src="zssets/education/cgbse.jpeg" alt="School" style="height:50px; width:50px "/>
+          </div>
+          <div class="info">
+            <h3>12th Standard</h3>
+            <h4>GHSS School Bodla Chhattisgarh</h4>
+            <p class="date">2020 - 2021</p>
+          </div>
+        </div>
+        <p class="grade">Score: 94%</p>
+        <p class="desc">
+          Completed higher secondary education with specialization in
+          Science and Mathematics.
+        </p>
+      </div>
+    </div>
+    <!-- Education Timeline -->
+  <div class="timeline">
+    <!-- Vertical Line -->
+    <div class="timeline-line"></div>
+
+    <!-- Education Entry Example -->
+    <div class="timeline-item left">
+      <!-- Circle with Image -->
+      <div class="timeline-circle">
+        <img src="zssets/education/cgbse.jpeg" alt="School/College" />
+      </div>
+
+      <!-- Card Content -->
+      <div class="timeline-card">
+        <div class="card-header">
+          <div class="logo">
+            <img src="zssets/education/cgbse.jpeg" alt="School/College"  style="height:50px; width:50px "/>
+          </div>
+          <div class="info">
+            <h3>10th Standard</h3>
+            <h4>GHSS School Bodla Chhattisgarh</h4>
+            <p class="date">2018 - 2019</p>
+          </div>
+        </div>
+
+        <p class="grade">SCORE: 80</p>
+        <p class="desc">
+         Completed high School education with specialization in
+          Science and Mathematics English Computer etc..
+        </p>
+      </div>
+    </div>
+
+    
+  </div>
+</section>
+  </section>
+
+<!-- /////////////////////////////// -->
+  <section id="experience" style="background: rgb(62, 4, 116); color:#fff">
+   <div class="experience-container">
+      <div class="section-title">
+    <h2>EXPERIENCE</h2>
+    <div class="title-underline"></div>
+    <p>
+    My role experiencein involved technologies like HTML, CSS, JavaScript, and React.js 
+        to develop dynamic UI components. and ensuring seamless 
+  integration with backend APIs.
+    </p>
+  </div>
+
+    <div class="Experience">
+      <img src="zssets/company_logo/aahar-logo.jpeg" alt="Aahar Logo">
+
+      <div class="Aahar-Menu">
+        <h2>Frontend Intern</h2>
+        <h3>Aahar Menu</h3>
+        <h4>January 2025 - February 2025</h4>
+      </div>
+
+      <p>
+        I am currently working as a Frontend Developer Intern at AaharMenu, 
+        where I contribute to building user-friendly and responsive web interfaces.
+        My role involves using technologies like HTML, CSS, JavaScript, and React.js 
+        to develop dynamic UI components. I collaborate closely with the design 
+        and backend teams to ensure seamless integration and smooth user experience.
+      </p>
+
+      <div class="tech-buttons">
+        <button>HTML</button>
+        <button>CSS</button>
+        <button>JAVASCRIPT</button>
+        <button>GSAP</button>
+        <button>JQUERY</button>
+        <button>MATERIALUI</button>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section id="contact" style="height:100vh; background: rgb(62, 4, 116); color:#fff;">
+     <div class="Contact-Container">
+   <div class="section-title">
+    <h2>CONTACT ME</h2>
+    <div class="title-underline"></div>
+    <p>
+       I would love to hear from you! Whether you have a question, want to collaborate, 
+  or just wish to connect, feel free to reach out.
+    </p>
+  </div>
+    <form id="contactForm">
+    
+      
+      <div class="box-group">
+        <input type="text" id="name" placeholder="Your Full Name">
+        <small class="error" id="nameError"></small>
+      </div>
+      <div class="box-group">
+        <input type="email" id="Email" placeholder="Your Email">
+        <small class="error" id="emailError"></small>
+      </div>
+      <div class="box-group">
+        <input type="text" id="L-name" placeholder="Subject">
+        <small class="error" id="lastNameError"></small>
+      </div>
+
+ 
+       <div class="box-group">
+        <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+        <small class="error" id="numberError"></small>
+      </div>
+     
+      <div class="btn-box">
+        <button type="submit">Send</button>
+
+      </div>
+    </form>
+
+    <p id="successMessage"></p>
+  </div>
+
+
+  </section>
+
+  <section class="section-3">
+        <footer class="footer">
+            <div class="footer-container">
+              <a href="https://www.instagram.com/hey_shivam4_?utm_source=qr&igsh=MTN4bnloOXMyd25sMw==" target="_blank" class="social-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram Logo">
+              </a>
+              <a href="https://www.linkedin.com/in/shivam-patel-3222592b3/" target="_blank" class="social-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn Logo">
+              </a>
+              <a href="https://github.com/shivampatel234" target="_blank" class="social-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub Logo">
+              </a>
+            </div>
+            <p class="footer-text">© 2025 Shivam's. All Rights Reserved.</p>
+          </footer>
+        
+    </section>
+
+  
+</body>
+</html>
